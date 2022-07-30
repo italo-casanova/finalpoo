@@ -1,0 +1,13 @@
+<p>atleta works!</p>
+<form>
+  <label>IdAtleta: </label>
+  <input type="text" [(ngModel)]="idAtleta" name="idAtleta"><br>
+
+  <label>flgSustanciaProhibida: </label>
+  <input type="text" [(ngModel)]="flgSustanciaProhibida" name="flgSustanciaProhibida"><br>
+
+  <label>flgCondicionMedica: </label>
+  <input type="number" [(ngModel)]="flgCondicionMedica" name="flgCondicionMedica"><br>
+
+  <button (click)="actualizarFlagsAtleta()">Enviar</button>
+</form>
